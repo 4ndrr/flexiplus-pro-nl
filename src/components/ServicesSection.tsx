@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import { Building2, Store, Factory, Home, CalendarCheck, Sparkles } from "lucide-react";
+import { Building2, Store, Home, CalendarCheck, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   { icon: Building2, title: "Kantoor schoonmaak", desc: "Dagelijkse of periodieke reiniging van kantoorruimtes, vergaderzalen en ontvangstruimtes voor een professionele werkomgeving." },
   { icon: Store, title: "Commerciële schoonmaak", desc: "Schoonmaak van winkels, showrooms en commerciële panden. Altijd een schone eerste indruk voor uw klanten." },
-  { icon: Factory, title: "Industriële reiniging", desc: "Grondige reiniging van magazijnen, productiehallen en industriële ruimtes volgens de hoogste normen." },
+  
   { icon: Home, title: "Opleveringsschoonmaak", desc: "Dieptereiniging na renovatie, verbouwing of nieuwbouw. Klaar voor gebruik of verhuur." },
   { icon: CalendarCheck, title: "Periodiek onderhoud", desc: "Structureel onderhoudsplan op maat. Wekelijks, tweewekelijks of maandelijks — u kiest." },
   { icon: Sparkles, title: "Ramen & algemene reiniging", desc: "Professionele ramenreiniging en algemene schoonmaak van gemeenschappelijke ruimtes." },

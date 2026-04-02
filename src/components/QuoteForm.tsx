@@ -96,7 +96,7 @@ const QuoteForm = () => {
               <Select onValueChange={(v) => update("dienst", v)}>
                 <SelectTrigger><SelectValue placeholder="Selecteer" /></SelectTrigger>
                 <SelectContent>
-                  {["Kantoor schoonmaak", "Commerciële schoonmaak", "Industriële reiniging", "Opleveringsschoonmaak", "Periodiek onderhoud", "Ramen / algemene reiniging"].map((o) => (
+                  {["Kantoor schoonmaak", "Commerciële schoonmaak", "Opleveringsschoonmaak", "Periodiek onderhoud", "Ramen / algemene reiniging"].map((o) => (
                     <SelectItem key={o} value={o}>{o}</SelectItem>
                   ))}
                 </SelectContent>
