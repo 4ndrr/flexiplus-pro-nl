@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Building2, Store, Factory, Home, CalendarCheck, Sparkles } from "lucide-react";
+import { Building2, Store, Home, CalendarCheck, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
